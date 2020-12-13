@@ -69,8 +69,8 @@ header h1 {
   /*Website Header Styles End*/
   /*Website Hero Styles*/
   .hero-section {
-    /*background-image: url('../images/vuylsteke1-40.jpg');*/
-    background-image: url('https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/vuylsteke1-40.jpg?raw=true');
+    background-image: url('../Images/vuylsteke1-40.jpg');
+   /* background-image: url('https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/vuylsteke1-40.jpg?raw=true'); */
     opacity: 0.7;
     background-color: black;
     background-size: cover;
