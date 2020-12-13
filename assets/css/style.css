@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Website Colour Palette */
+:root {
+    --peach: #f7c8ad;
+    --pink: #E9A37F;
+    --terracotta: #db7f50;
+    --olive: #7F8563;
+    --green: #5A7E64;
+    --forest: #41634A;
+    --white: #FFFFFF;
+}
+
+/*Website colour palette ends */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    background-color: var(--white);
+    color:var(--forest);
+    margin: 25px;
+}
+
+.page-section h2{
+    border-bottom: 2px solid var(--terracotta);
+    text-align: center;
+    padding: 25px; 
+}
+
+/*Website Header Styles */
+header {
+    background-color: var(--white);
+    color:var(--forest);
+    border-bottom: 5px solid var(--forest);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 15px;
+    font-size: 36px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color:var(--forest);
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    color: var(--terracotta);
+  }
+  /*Website Header Styles End*/
+  /*Website Hero Styles*/
+  .hero-section {
+    background-image: url('../images/vuylsteke1-40.jpg');
+    opacity: 0.7;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 200px;
+    display: flex;
+    color: var(--white);
+  }
+  
+  .hero-section h2 {
+      padding-top: 100px;
+      font-size: 3.55rem;
+      font-weight: lighter;
+  }
+
+  .hero-section h3 {
+    padding-top: 5px;
+    font-size: 1.55rem;
+    font-weight: lighter;
+}
+
+.hero-section h4 {
+    padding-top: 5px;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+.hero-section p {
+    padding-top: 2px;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+  /*Website Hero Styles End*/
+
+  /*Website About Me Styles*/
+  .about-me-wrapper {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .about-me-img{
+    margin:auto;
+    height: 100%;
+    align-content: center;
+  }
+  /*Website Work Styles*/
+  .work-grid-container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(150px, 1fr);
+  }
+  
+  .grid-item {
+    border: 5px solid var(--olive);
+    grid-column: span 4;
+    background-color: var(--forest);
+    color: var(--white);
+    min-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+  .grid-item:first-child {
+    grid-column: span 4;
+    grid-row: span 2;
+}  
+
+.grid-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grid-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+}
+
+.grid-item h3 {
+  font-size: 1.6rem;
+}
+
+.run-buddy {
+    background-image: url("../images/02-run-buddy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.horiseon {
+    background-image: url("../images/horizon-seo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ /*Website Work Styles End*/
+/*Website Brand Styles*/
+
+.brand-grid-container{
+    display: grid;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(150px, 1fr);
+}
+
+.brand-grid-item {
+    grid-column: span 4;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.grid-item-att {
+    background-image: url("../images/brands/att.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+  }
+.grid-item-scotia {
+    background-image: url("../images/brands/scotiabank.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%
+}
+.grid-item-jandj {
+    background-image: url("../images/brands/jandj.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.grid-item-sobeys {
+    background-image: url("../images/brands/sobeys.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.grid-item-rickis {
+    background-image: url("../images/brands/rickis.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.grid-item-bootlegger{
+    background-image: url("../images/brands/bootlegger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+/*Website Brand Styles End*/
+/*Website Contact Styles*/
+ .contact {
+    background-color: var(--white);
+    color:var(--forest);
+    border-bottom: 5px solid var(--forest);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-grid-item {
+    grid-column: auto;
+    grid-row: 1;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    text-decoration: none;
+}
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+.contact ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    color:var(--forest);
+    text-decoration: none;
+  }
+  
+.contact ul li a:hover {
+    color: var(--terracotta);
+  }
+/*Website Contact Styles end*/
+
+/*Screen Width Style Adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    header h1 {
+        width: 100%;
+        align-content: center;
+        margin-left: 5px;
+      }
+    
+      header nav ul {
+        display: none;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+     .hero-section {
+         background-image: url('../images/vuylsteke1-38-webresize.jpg');
+         background-position: center;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         width: 100%;
+         align-content: start;
+         justify-content: start;
+         margin: 0;
+     }
+
+     .hero-section h2 {
+         align-content: left;
+         font-size: 2.4rem;
+         margin: 0;
+     }
+     .about-me-wrapper {
+         grid-template-columns: minmax(200px, 1fr);
+         grid-template-rows: minmax(200px, 1fr);
+     }
+     .about-me-img {
+         display: none;
+     }
+    .grid-item,
+    .grid-item:first-child {
+      grid-column: 1 / -1;
+    }
+  
+    .grid-container {
+      grid-auto-rows: minmax(200px, 1fr);
+    }
+    .brand-grid-container {
+        grid-auto-rows: minmax(200px, 1fr);
+      }
+    .brand-grid-item {
+        grid-column: 1/ -1;
+    }
+  }
+  
