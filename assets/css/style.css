@@ -141,7 +141,6 @@ header h1 {
   }
   
   .grid-item {
-    border: 5px solid var(--olive);
     grid-column: span 4;
     background-color: var(--forest);
     color: var(--white);
@@ -151,8 +150,8 @@ header h1 {
     text-decoration: none;
     background-blend-mode: soft-light;
     background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
+    transition: all 0.8s;
+    font-size: 1rem;
   }
 
   .grid-item:first-child {
@@ -207,38 +206,38 @@ header h1 {
 }
 
 .grid-item-att {
-    background-image: url("../Images/brands/att.png");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/att.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
   }
 .grid-item-scotia {
-    background-image: url("../Images/brands/scotiabank.png");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/scotiabank.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%
 }
 .grid-item-jandj {
-    background-image: url("../Images/brands/jandj.png");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/jandj.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-sobeys {
-    background-image: url("../Images/brands/sobeys.png");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/sobeys.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-rickis {
-    background-image: url("../Images/brands/rickis.jpg");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/rickis.jpg?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-bootlegger{
-    background-image: url("../Images/brands/bootlegger.jpg");
+    background-image: url("https://github.com/hayleyvuylsteke/my-portfolio/blob/master/assets/Images/brands/bootlegger.jpg?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
