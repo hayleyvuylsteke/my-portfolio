@@ -207,38 +207,38 @@ header h1 {
 }
 
 .grid-item-att {
-    background-image: url("../images/brands/att.png");
+    background-image: url("../Images/brands/att.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
   }
 .grid-item-scotia {
-    background-image: url("../images/brands/scotiabank.png");
+    background-image: url("../Images/brands/scotiabank.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%
 }
 .grid-item-jandj {
-    background-image: url("../images/brands/jandj.png");
+    background-image: url("../Images/brands/jandj.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-sobeys {
-    background-image: url("../images/brands/sobeys.png");
+    background-image: url("../Images/brands/sobeys.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-rickis {
-    background-image: url("../images/brands/rickis.jpg");
+    background-image: url("../Images/brands/rickis.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
 }
 .grid-item-bootlegger{
-    background-image: url("../images/brands/bootlegger.jpg");
+    background-image: url("../Images/brands/bootlegger.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -304,7 +304,7 @@ header h1 {
         font-size: 20px;
       }
      .hero-section {
-         background-image: url('../images/vuylsteke1-38-webresize.jpg');
+         background-image: url('../Images/vuylsteke1-38-webresize.jpg');
          background-position: center;
          background-attachment: fixed;
          background-repeat: no-repeat;
